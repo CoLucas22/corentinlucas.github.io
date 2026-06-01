@@ -181,36 +181,47 @@
       .hero { flex-direction: column; gap: 1rem; }
       .about-grid, .projects { grid-template-columns: 1fr; }
     }
+
+    header{
+      width:100%;
+      background:white;
+      color: white;
+      position:fixed;
+      z-index:100;
+    }
+ 
   </style>
 </head>
 
 <body>
+
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N929BDCW"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <div class="page">
 
-    <!-- HERO -->
-    <div class="hero">
-      <div class="avatar">CL</div>
-      <div class="hero-text">
-        <div class="role">PhD Candidate · Bioinformatics</div>
-        <h1>Corentin Lucas</h1>
-        <p>Developing computational methods to analyze MRI and microbiome data linked to medical conditions, particularly on reduced datasets. Based at University of Rennes, France.</p>
-        <div class="links">
-          <a class="link-chip" href="https://github.com/CoLucas22" target="_blank" rel="noopener">
-            <i class="ti ti-brand-github" aria-hidden="true"></i> GitHub
-          </a>
-          <a class="link-chip" href="https://www.linkedin.com/in/corentin-lucas-882999202/" target="_blank" rel="noopener">
-            <i class="ti ti-brand-linkedin" aria-hidden="true"></i> LinkedIn
-          </a>
-          <a class="link-chip" href="https://orcid.org/0009-0006-5243-2931" target="_blank" rel="noopener">
-            <i class="ti ti-id-badge" aria-hidden="true"></i> ORCID
-          </a>
+    <header>
+      <div class="hero">
+        <div class="avatar">CL</div>
+        <div class="hero-text">
+          <div class="role">PhD Candidate · Bioinformatics</div>
+          <h1>Corentin Lucas</h1>
+          <p>Developing computational methods to analyze MRI and microbiome data linked to medical conditions, particularly on reduced datasets. Based at University of Rennes, France.</p>
+          <div class="links">
+            <a class="link-chip" href="https://github.com/CoLucas22" target="_blank" rel="noopener">
+              <i class="ti ti-brand-github" aria-hidden="true"></i> GitHub
+            </a>
+            <a class="link-chip" href="https://www.linkedin.com/in/corentin-lucas-882999202/" target="_blank" rel="noopener">
+              <i class="ti ti-brand-linkedin" aria-hidden="true"></i> LinkedIn
+            </a>
+            <a class="link-chip" href="https://orcid.org/0009-0006-5243-2931" target="_blank" rel="noopener">
+              <i class="ti ti-id-badge" aria-hidden="true"></i> ORCID
+            </a>
+          </div>
         </div>
       </div>
-    </div>
+    </header>
 
     <!-- ABOUT -->
     <section>
