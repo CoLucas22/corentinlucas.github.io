@@ -182,7 +182,8 @@
       .about-grid, .projects { grid-template-columns: 1fr; }
     }
 
-    header{
+    .fixed_header{
+      top: 0;
       width:100%;
       background:white;
       color: white;
@@ -201,30 +202,33 @@
   <!-- End Google Tag Manager (noscript) -->
   <div class="page">
 
-    <header>
+    <div class="fixed_header">
+ 
       <div class="hero">
-        <div class="avatar">CL</div>
-        <div class="hero-text">
-          <div class="role">PhD Candidate · Bioinformatics</div>
-          <h1>Corentin Lucas</h1>
-          <p>Developing computational methods to analyze MRI and microbiome data linked to medical conditions, particularly on reduced datasets. Based at University of Rennes, France.</p>
-          <div class="links">
-            <a class="link-chip" href="https://github.com/CoLucas22" target="_blank" rel="noopener">
-              <i class="ti ti-brand-github" aria-hidden="true"></i> GitHub
-            </a>
-            <a class="link-chip" href="https://www.linkedin.com/in/corentin-lucas-882999202/" target="_blank" rel="noopener">
-              <i class="ti ti-brand-linkedin" aria-hidden="true"></i> LinkedIn
-            </a>
-            <a class="link-chip" href="https://orcid.org/0009-0006-5243-2931" target="_blank" rel="noopener">
-              <i class="ti ti-id-badge" aria-hidden="true"></i> ORCID
-            </a>
+          <div class="avatar">CL</div>
+          <div class="hero-text">
+            <div class="role">PhD Candidate · Bioinformatics</div>
+            <h1>Corentin Lucas</h1>
+            <p>Developing computational methods to analyze MRI and microbiome data linked to medical conditions, particularly on reduced datasets. Based at University of Rennes, France.</p>
+            <div class="links">
+              <a class="link-chip" href="https://github.com/CoLucas22" target="_blank" rel="noopener">
+                <i class="ti ti-brand-github" aria-hidden="true"></i> GitHub
+              </a>
+              <a class="link-chip" href="https://www.linkedin.com/in/corentin-lucas-882999202/" target="_blank" rel="noopener">
+                <i class="ti ti-brand-linkedin" aria-hidden="true"></i> LinkedIn
+              </a>
+              <a class="link-chip" href="https://orcid.org/0009-0006-5243-2931" target="_blank" rel="noopener">
+                <i class="ti ti-id-badge" aria-hidden="true"></i> ORCID
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </header>
+    </div>
 
     <!-- ABOUT -->
     <section>
+      <div style="height: 200px;"></div>
       <div class="section-label">About</div>
       <div class="about-grid">
         <div class="about-card">
@@ -312,7 +316,7 @@
       <div class="section-label">Contact</div>
       <div class="contact-row">
         <i class="ti ti-mail" aria-hidden="true"></i>
-        <a href="mailto:corentin.lucas22@outlook.fr">corentin.lucas22@outlook.fr</a>
+        <span>"firstname dot name 22@outlook.fr"</span>
       </div>
       <div class="contact-row">
         <i class="ti ti-building" aria-hidden="true"></i>
